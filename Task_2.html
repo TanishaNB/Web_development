@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TIMELINE APP</title>
+  <style>
+    body {
+      font-family: 'Times New Roman', serif;
+      margin: 0;
+      padding: 0;
+      background: #2e2d2d;
+      color: #f5f5f5;
+    }
+
+    header {
+      background: linear-gradient(135deg, #c8d6f0, #c1bdeb);
+      padding: 1rem;
+      text-align: center;
+    }
+
+    #Heading_font {
+      font-size: 2.5rem;
+      color: #fff;
+      margin: 0;
+    }
+
+    #timeline {
+      padding: 2rem 1rem;
+    }
+
+    .timeline-nav {
+      display: flex;
+      justify-content: center;
+      gap: 0.5rem;
+      margin-bottom: 2rem;
+      flex-wrap: wrap;
+    }
+
+    .timeline-nav span {
+      padding: 0.5rem 1rem;
+      border-radius: 10px;
+      background: #3a3a3a;
+      cursor: pointer;
+      transition: background 0.3s ease, color 0.3s ease;
+    }
+
+    .timeline-nav span:hover {
+      background: #011437;
+      color: #fff;
+    }
+
+    .timeline-nav span.active {
+      background: #ed9fb0;
+      color: #fff;
+    }
+
+    .event {
+      max-width: 700px;
+      margin: auto;
+      background: #b19eeb;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    }
+
+    .event h2 {
+      margin-top: 0;
+      color: #7f72ff;
+    }
+
+    #Intro_of {
+      font-size: 1.8rem;
+      font-weight: bold;
+      font-style: italic;
+      color: #230434;
+      margin-top: 0.2rem;
+    }
+
+    figure {
+      margin: 1rem 0;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    figcaption {
+      margin-top: 0.5rem;
+      font-size: 1rem;
+      line-height: 1.5;
+      color: #ccc;
+    }
+
+    button {
+      background: #5a8dee;
+      color: white;
+      border: none;
+      padding: 0.6rem 1.2rem;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background: #7f72ff;
+    }
+
+    @media (max-width: 768px) {
+      #Heading_font {
+        font-size: 2rem;
+      }
+      #Intro_of {
+        font-size: 1.4rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      header {
+        padding: 0.8rem;
+      }
+      #Heading_font {
+        font-size: 1.6rem;
+      }
+      .timeline-nav span {
+        font-size: 0.9rem;
+        padding: 0.4rem 0.8rem;
+      }
+      #Intro_of {
+        font-size: 1.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1 id="Heading_font">Timeline of Technology</h1>
+  </header>
+
+  <div id="timeline">
+    <div class="timeline-nav">
+      <span class="active">1970</span>
+      <span>1980</span>
+      <span>1990</span>
+      <span>2000</span>
+    </div>
+
+    <article class="event">
+      <h2>1977</h2>
+      <h3 id="Intro_of">Introduction of the First Personal Computer</h3>
+      <figure>
+        <img src="C:\Users\Tanisha\Desktop\Web_development\Retro_comp.avif" alt="Vintage Personal Computer" />
+        <figcaption>
+          The Kenbak-1, designed by John Blankenbaker in 1970 and first sold in 1971, is widely considered to be the world's first personal computer.
+        </figcaption>
+      </figure>
+      <button>Learn More</button>
+    </article>
+  </div>
+
+</body>
+</html>
