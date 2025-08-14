@@ -1,0 +1,58 @@
+[
+  {
+    "year": "1977",
+    "title": "First Personal Computer",
+    "description": "The Apple II was designed by Steve Wozniak. It became one of the first successful mass-produced personal computers.",
+    "imageURL": "apple 11.jpg",
+    "category": "Computer"
+  },
+  {
+    "year": "1991",
+    "title": "World Wide Web",
+    "description": "Tim Berners-Lee released the first web browser.That was the world wide web",
+    "imageURL": "www.png",
+    "category": "Internet"
+  },
+  {
+    "year": "2004",
+    "title": "Facebook",
+    "description": "Mark Zuckerberg and his college roommates launched Facebook. Social media has never been the same ever since",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png",
+    "category": "Social Media"
+  },
+  {
+    "year": "2007",
+    "title": "iPhone",
+    "description": "Apple released the first iPhone,still has been the highest bought mobile phone in the world.",
+    "imageURL": "iphone.webp",
+    "category": "Mobile"
+  },
+  {
+    "year": "2012",
+    "title": "Curiosity Rover",
+    "description": "NASA's Curiosity rover successfully landed on Mars to explore the planet's surface.",
+    "imageURL": "rover.jpeg",
+    "category": "Space"
+  },
+  {
+    "year": "2015",
+    "title": "66-A",
+    "description": "The Supreme Court of India struck down Section 66A of the Information Technology Act, 2000, deeming it unconstitutional.",
+    "imageURL": "https://trak.in/wp-content/uploads/2015/03/RIP-Section-66A.jpg",
+    "category": "Riot"
+  },
+  {
+    "year": "2020",
+    "title": "COVID-19 Pandemic",
+    "description": "COVID-19 spread globally it caused major changes of daily lifestyle",
+    "imageURL": "covid.jpg",
+    "category": "Health"
+  },
+  {
+    "year": "2023",
+    "title": "AI Boom",
+    "description": "CHATGPT has and is still changing the world.",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg",
+    "category": "AI"
+  }
+]
